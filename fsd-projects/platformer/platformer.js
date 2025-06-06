@@ -27,17 +27,37 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+    toggleGrid();
 
 
     // TODO 2 - Create Platforms
-
-
-
-
+    //A Step
+    createPlatform(300, 630, 100, 15, "White");
+    //B Step
+    createPlatform(550, 550, 100, 15, "White");
+    //C Step
+    createPlatform(650, 440, 100, 15, "White");
+    //D Step
+    createPlatform(1000, 430, 100, 15, "White");
+    //E Step
+    createPlatform(800, 500, 100, 15, "White");
+    //F Step
+    createPlatform(900, 600, 100, 15, "White");
+    //G Step
+    createPlatform(800, 600, 200, 15, "White");
+    //H Step
+    createPlatform(1200, 500, 100, 15, "White");
+    //I Step
+    createPlatform(1300, 600, 100, 15, "White");
+    //J Step
+    createPlatform(900, 300, 100, 15, "White");
+    //K Step
+    createPlatform(800, 200, 100, 15, "White");
+    //L Step
+    createPlatform(700, 200, 100, 15, "White");
     // TODO 3 - Create Collectables
-
-
+    createCollectable("steve", 800, 550)
+    createCollectable("diamond", 1300, 550)
 
     
     // TODO 4 - Create Cannons
