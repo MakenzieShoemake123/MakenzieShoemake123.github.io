@@ -55,9 +55,13 @@ $(function () {
     createPlatform(800, 200, 100, 15, "White");
     //L Step
     createPlatform(700, 200, 100, 15, "White");
+    //M Step
+    createPlatform(1300, 500, 15, 100, "White");
+    //N Step
+    createPlatform(800, 500, 15, 100, "White");
     // TODO 3 - Create Collectables
-    createCollectable("steve", 800, 550)
-    createCollectable("diamond", 1300, 550)
+    createCollectable("steve", 850, 550)
+    createCollectable("diamond", 1350, 550)
 
     
     // TODO 4 - Create Cannons
