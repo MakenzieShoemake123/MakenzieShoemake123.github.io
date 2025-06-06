@@ -17,7 +17,7 @@ nav {
   display: flex;
   padding: 10px;
   border-: dashed;
-  border-color: white;
+  border-color: rgb(223, 205, 205);
 }
 
 h1 {
