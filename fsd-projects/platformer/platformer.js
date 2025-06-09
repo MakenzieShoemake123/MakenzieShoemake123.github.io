@@ -31,30 +31,37 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-    createPlatform(300, 630, 100, 15, "White");
-    createPlatform(550, 550, 100, 15, "White");
-    createPlatform(650, 440, 100, 15, "White");
-    createPlatform(1000, 430, 100, 15, "White");
-    createPlatform(800, 500, 100, 15, "White");
-    createPlatform(900, 600, 100, 15, "White");
-    createPlatform(800, 600, 200, 15, "White");
+    createPlatform(300, 700, 100, 15, "White");
+    createPlatform(600,500, 100, 15, "White");
+    createPlatform(400, 600, 100, 15, "White");
+    createPlatform(700, 500, 15, 100, "White");
+    createPlatform(700, 600, 100, 15, "White");
+    createPlatform(900, 500, 40, 15, "White");
+    createPlatform(1100, 400, 40, 15, "White");
     createPlatform(1200, 500, 100, 15, "White");
-    createPlatform(1300, 600, 100, 15, "White");
-    createPlatform(900, 300, 100, 15, "White");
-    createPlatform(800, 200, 100, 15, "White");
-    createPlatform(700, 200, 100, 15, "White");
     createPlatform(1300, 500, 15, 100, "White");
-    createPlatform(800, 500, 15, 100, "White");
-    createPlatfrom(700, 300, 15, 100, "White");
-   
-    // TODO 3 - Create Collectables
-    createCollectable("steve", 800, 550);
-    createCollectable("diamond", 1350, 600);
+    createPlatform(1300, 600, 100, 15, "White");
+    createPlatform(900, 300, 40, 15, "White");
+    createPlatform(700, 200, 100, 15, "White");
+    createPlatform(600, 200, 100, 15, "White");
+    createPlatform(500, 200, 100, 15, "White");
+    createPlatform(400, 300, 40, 15, "White");
+    createPlatform(300, 400, 40, 15, "White");
+    createPlatform(200, 300, 40, 15, "White");
+    createPlatform(200, 300, 15, 100, "White");
+    createPlatform(100, 400, 100, 15, "White");
+    //TODO - Create Collectables
+    createCollectable("steve", 730, 550);
+    createCollectable("diamond", 1350, 550);
+    createCollectable("diamond", 150, 350);
    
 
     
     // TODO 4 - Create Cannons
-
+    createCannon("top", 600, 700);
+    createCannon("bottom", 1000, 700);
+    createCannon("bottom", 800, 700);
+    
     
     
     //////////////////////////////////
