@@ -46,14 +46,12 @@ $(function () {
     createPlatform(600, 200, 100, 15, "White");
     createPlatform(500, 200, 100, 15, "White");
     createPlatform(400, 300, 40, 15, "White");
-    createPlatform(300, 400, 40, 15, "White");
-    createPlatform(200, 300, 40, 15, "White");
     createPlatform(200, 300, 15, 100, "White");
-    createPlatform(100, 400, 100, 15, "White");
+    createPlatform(200, 400, 100, 15, "White");
     //TODO - Create Collectables
     createCollectable("steve", 730, 550);
     createCollectable("diamond", 1350, 550);
-    createCollectable("diamond", 150, 350);
+    createCollectable("diamond", 250, 350);
    
 
     
