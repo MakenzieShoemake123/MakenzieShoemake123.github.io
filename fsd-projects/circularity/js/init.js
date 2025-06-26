@@ -93,9 +93,8 @@ var init = function (window) {
             // TODO 6 : YOUR CODE STARTS HERE //////////////////////
             
 
-
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
-        }
+            }
         
         /////////////////////////////////////////////////////////////
         // --- NO CODE BELOW HERE  --- DO NOT REMOVE THIS CODE --- //
